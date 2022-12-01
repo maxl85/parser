@@ -1,0 +1,16 @@
+python -m venv venv
+venv\Scripts\activate.ps1
+pip install jupyterlab
+pip install requests
+pip install beautifulsoup4
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml
+pip install lxml-4.9.0-cp311-cp311-win_amd64.whl
+pip install prettytable
+
+pip install pytest-playwright
+playwright install
+
+pip freeze > requirements.txt
+
+jupyter lab
+jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10
