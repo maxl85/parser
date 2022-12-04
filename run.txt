@@ -8,6 +8,8 @@ pip install lxml-4.9.0-cp311-cp311-win_amd64.whl
 pip install prettytable
 pip install transliterate
 #pip install python-slugify
+pip install pandas
+pip install openpyxl
 
 pip install pytest-playwright
 playwright install
