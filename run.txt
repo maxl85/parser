@@ -10,6 +10,7 @@ pip install transliterate
 #pip install python-slugify
 pip install pandas
 pip install openpyxl
+pip install tqdm
 
 pip install pytest-playwright
 playwright install
